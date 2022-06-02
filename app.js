@@ -65,23 +65,23 @@ currentDate.innerHTML = `
   <p>${today}</p>
 `;
 
-// Add Event listeners for one page website 
+// Add Event listeners for one page website
 
-formLink.addEventListener('click', ()=>{
+formLink.addEventListener('click', () => {
   loggedBooks.style.display = 'none';
   form.style.display = 'grid';
   contact.style.display = 'none';
   pageHeading.innerHTML = 'Add book';
 });
 
-bookLink.addEventListener('click', ()=>{
+bookLink.addEventListener('click', () => {
   loggedBooks.style.display = 'none';
   form.style.display = 'none';
   loggedBooks.style.display = 'block';
   pageHeading.innerHTML = 'Display all books';
 });
 
-contactLink.addEventListener('click', ()=>{
+contactLink.addEventListener('click', () => {
   contact.style.display = 'grid';
   form.style.display = 'none';
   loggedBooks.style.display = 'none';
