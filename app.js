@@ -9,7 +9,7 @@ const form = document.querySelector('form');
 const currentDate = document.querySelector('.date');
 const pageHeading = document.querySelector('main-heading');
 
-// Select the Links to the pages 
+// Select the Links to the pages
 const bookLink = document.querySelector('nav ul li .book-link');
 const formLink = document.querySelector('nav ul li .form-link');
 const contactLink = document.querySelector('nav ul li .contact-link');
@@ -26,7 +26,7 @@ function showBook() {
         </div>
    `;
 
-   // Reset the values to null to allow the user to input again
+    // Reset the values to null to allow the user to input again
     title.value = '';
     author.value = '';
   }
@@ -59,7 +59,7 @@ addButton.addEventListener('click', () => {
   localStorage.setItem('books', JSON.stringify(books));
 });
 
-const today = new Date().toLocaleDateString('en-us', { weekday:"long", year:"numeric", month:"long", day:"numeric"}) 
+const today = new Date().toLocaleDateString('en-us', {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'});
 
 currentDate.innerHTML = `
   <p>${today}</p>

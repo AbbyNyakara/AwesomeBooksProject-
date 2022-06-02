@@ -37,7 +37,6 @@ body {
   color: rgb(97, 97, 182);
 }
 
-
 .navbar ul .logo {
   margin-right: auto;
 }
@@ -92,7 +91,6 @@ form button {
   display: grid;
   place-items: center;
   margin-top: 80px;
-  
 }
 
 .contact h2 {
