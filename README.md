@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Awesome Books Project
 
-> Awesome Books Project
+> A one page complete navigation website project to add and delete books from a website dynamically 
 
 
 ## Built With
