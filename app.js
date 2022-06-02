@@ -60,7 +60,7 @@ addButton.addEventListener('click', () => {
 });
 
 const today = new Date().toLocaleDateString('en-us', {
-  weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
+  weekday: 'long', year: 'numeric', month: 'long', day: 'numeric',
 });
 
 currentDate.innerHTML = `
